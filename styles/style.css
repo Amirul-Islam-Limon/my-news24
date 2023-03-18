@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(240, 242, 243);
+}
+#nav-items-right a{
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+#nav-items-right a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#navbar-container{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.navbar-brand-design{
+    background-color: red;
+}
+.menu-container ul li{
+    list-style: none;
+    padding-right: 35px;
+    padding-top: 30px;
+}
+.news-show-count input{
+    height: 40px;
+}
+/* .news-show-count input:focus{
+    border: none!important;
+} */
+.new-show-count-input-field:focus{
+    outline: none;
+    cursor:none;
+}
